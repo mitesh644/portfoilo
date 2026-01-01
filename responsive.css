@@ -1,0 +1,384 @@
+	@media (max-width: 320px) {
+		.menubar {
+			visibility: visible;
+		}
+
+		.logoimg {
+			width: 25%;
+			padding: 10px;
+		}
+
+		.navigationpart1 {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.navigationlinkspart {
+			display: none;
+			flex-direction: column;
+		}
+
+		.nav-link {
+			border: 1px solid #E5B259;
+			border-radius: 12px;
+			font-family: "Montserrat", sans-serif;
+			/* transition: none; */
+			text-align: center;
+			margin-top: 27px;
+		}
+
+		.aboutsection,
+		.Gallerysection {
+			/* align-items: center; */
+		}
+
+		.Rightheding {
+			display: block;
+		}
+
+		.headingtext {
+			font-size: 33px;
+		}
+
+		.bannertext {
+			text-align: center;
+		}
+
+		.bannerbtn {
+			background-color: transparent;
+		}
+
+		.bannerpage1 {
+			background-image: none;
+		}
+
+		.bannertext {
+			background-color: transparent;
+			font-family: "Montserrat", sans-serif;
+			width: 100%;
+			line-height: 36px;
+		}
+
+		.bannerpage1 {
+			background-position: 58% 66%;
+		}
+
+		.bannerpage {
+			flex-direction: column-reverse;
+		}
+
+		.img {
+			width: 100%;
+		}
+
+		.aboutheading {
+			text-align: center;
+			font-size: 21px;
+		}
+
+		.aboutbtn,
+		.abouttext {
+			text-align: center;
+		}
+
+		.slick-prev:before,
+		.slick-next:before {
+			display: none;
+		}
+
+		.slick-dots {
+			position: unset !important;
+		}
+
+		.slick-next {
+			display: none !important;
+		}
+
+		.slideroic {
+			width: 100%;
+		}
+
+		.responsiveinnerbox {
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 320px) and (max-width: 480px) {
+		.menubar {
+			visibility: visible;
+		}
+
+		.logoimg {
+			width: 22%;
+			padding: 5px;
+		}
+
+		.aboutsection {
+			margin-top: 50px;
+		}
+
+		.nav-link {
+			border: 1px solid #E5B259;
+			border-radius: 12px;
+			font-family: "Montserrat", sans-serif;
+			/* transition: none; */
+			text-align: center;
+			margin-top: 37px;
+		}
+
+		.bannerpage1 {
+			background-image: none;
+		}
+
+		.bannerpage {
+			flex-direction: column-reverse;
+		}
+
+		.navigationpart1 {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.navigationlinkspart {
+			display: none;
+			flex-direction: column;
+		}
+
+		.bannertext {
+			text-align: center;
+		}
+
+		.headingtext {
+			font-size: 33px;
+		}
+
+		.bannerbtn {
+			background-color: transparent;
+		}
+
+		.bannertext {
+			background-color: transparent;
+			font-family: "Montserrat", sans-serif;
+			width: 80%;
+			line-height: 36px;
+		}
+
+		.bannerpage1 {
+			background-position: 58% 66%;
+		}
+
+		.img {
+			width: 100%;
+		}
+
+		.aboutheading {
+			text-align: center;
+			font-size: 21px;
+		}
+
+		.Rightheding {
+			align-items: center;
+			/* text-align: center !important; */
+		}
+
+		.aboutbtn,
+		.abouttext {
+			text-align: center;
+		}
+
+		.slick-prev:before,
+		.slick-next:before {
+			display: none;
+		}
+
+		.slick-dots {
+			position: unset !important;
+		}
+
+		.slick-next {
+			display: none !important;
+		}
+
+		.slideroic {
+			width: 100%;
+		}
+
+		.responsiveinnerbox {
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 480px) and (max-width: 768px) {
+		.logoimg {
+			width: 17%;
+		}
+
+		.aboutsection {
+			margin-top: 50px;
+		}
+
+		.nav-link {
+			border: 1px solid #E5B259;
+			border-radius: 12px;
+			font-family: "Montserrat", sans-serif;
+			/* transition: none; */
+			text-align: center;
+			margin-top: 37px;
+		}
+
+		.bannerpage1 {
+			background-image: none;
+			/* flex-direction: column-reverse; */
+		}
+
+		.bannertext {
+			text-align: center;
+		}
+
+		.menubar {
+			visibility: visible;
+		}
+
+		.bannerpage {
+			flex-direction: column-reverse;
+		}
+
+		.navigationpart1 {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.navigationlinkspart {
+			display: none;
+			flex-direction: column;
+		}
+
+		.headingtext {
+			font-size: 33px;
+		}
+
+		.bannerbtn {
+			background-color: transparent;
+		}
+
+		.bannertext {
+			background-color: transparent;
+			font-family: "Montserrat", sans-serif;
+			width: 80%;
+			line-height: 36px;
+		}
+
+		.bannerpage1 {
+			background-position: 58% 66%;
+		}
+
+		.img {
+			width: 100%;
+		}
+
+		.aboutheading {
+			text-align: center;
+			font-size: 31px;
+		}
+
+		.aboutbtn,
+		.abouttext {
+			text-align: center;
+		}
+
+		.Rightheding {
+			align-items: center;
+		}
+
+		.slick-prev:before,
+		.slick-next:before {
+			display: none;
+		}
+
+		.slick-dots {
+			position: unset !important;
+		}
+
+		.slick-next {
+			display: none !important;
+		}
+
+		.slideroic {
+			width: 100%;
+		}
+
+		.responsiveinnerbox {
+			width: 100%;
+		}
+
+	}
+
+	@media (min-width: 768px) and (max-width: 1024px) {
+		.headingtext {
+			font-size: 42px;
+		}
+
+		.aboutsection {
+			margin-top: 50px;
+		}
+
+		.aboutsectionpart1 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.bannertext {
+			width: 70%;
+		}
+
+		.bannerbtn {
+			background-color: transparent;
+		}
+
+		.aboutheading {
+			font-size: 37px;
+		}
+
+		.slideroic {
+			width: 100%;
+		}
+	}
+
+
+	@media (min-width: 1024px) and (max-width: 1200px) {
+		.headingtext {
+			font-size: 42px;
+		}
+
+		.bannertext {
+			width: 60%;
+		}
+
+		.bannerbtn {
+			background-color: transparent;
+		}
+
+		.aboutsectionpart1 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.aboutheading {
+			font-size: 37px;
+		}
+
+		.slideroic {
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 1200px) and (max-width: 1400px) {
+		.slideroic {
+			width: 100%;
+		}
+	}
