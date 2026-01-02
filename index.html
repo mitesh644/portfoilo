@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portfolio</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,10 +20,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-    <nav class="navigation row">
+    <nav class="navigation row" data-aos="zoom-in" data-aos-duration="1000">
         <div class="navigationpart1 col-12 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
             <div class="logoimg">
                 <img src="./img/logo.png" alt="">
@@ -35,16 +36,16 @@
         <div class="navigationpart2 col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
             <ul class="nav-navbar navigationlinkspart">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">home</a>
+                    <a class="nav-link" href="#home">home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">project</a>
+                    <a class="nav-link" href="#project">project</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#contact">contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./MiteshMakwana.pdf" download>download Cv</a>
@@ -52,8 +53,9 @@
             </ul>
         </div>
     </nav>
-    <div class="bannerpage row">
-        <div class=" bannerpage1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+    <div class="bannerpage row" id="home">
+        <div class=" bannerpage1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="flip-left"
+            data-aos-duration="1000">
             <div class="d-flex justify-content-start align-item-start">
                 <div class="wrapper">
                     <div class="static-txt">I 'am</div>
@@ -78,9 +80,10 @@
             </div>
 
         </div>
-        <div class="bannerpage2 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="bannerpage2 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="zoom-in-up"
+            data-aos-duration="1000">
             <div class="bannerimg">
-                <img src="./img/2.jpeg" alt="">
+                <img src="./img/banner.png" alt="">
             </div>
         </div>
     </div>
@@ -89,23 +92,25 @@
     </div>
 
     <div class="topbox2" id="topbtn2" data-aos="zoom-in-up" data-aos-duration="1000">
-        <a class="phonebtn" href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a class="phonebtn" href="tel:+919664884688"><i class="fa fa-phone" aria-hidden="true"></i></a>
     </div>
     <div>
-        <div class="aboutsection text-center  mb-5">
+        <div class="aboutsection text-center  mb-5" id="about">
             <h1 style="color: #e5b259;" class="fw-bold">About </h1>
             <h1>I'm devloper</h1>
         </div>
         <div class="row about">
-            <div class="aboutsectionpart1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="aboutsectionpart1 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"
+                data-aos="flip-right" data-aos-duration="1000">
                 <div class="aboutimg">
-                    <video loop muted autoplay class="img">
-                        <source src="./img/VID-20251218-WA0000.mp4">
-                        <!-- <img src="./img/VID-20251218-WA0000.mp4" class="img" alt=""> -->
-                    </video>
+                    <!-- <video loop muted autoplay class="img">
+                        <source src="./img/banner2.png">
+                    </video> -->
+                    <img src="./img/banner2.png" class="img" alt="">
                 </div>
             </div>
-            <div class="aboutsectionpart2 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="aboutsectionpart2 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"
+                data-aos="zoom-in" data-aos-duration="1000">
                 <div>
                     <h1 class="aboutheading ">I am front-end devloper</h1>
                     <p class="abouttext mt-5">Hi everyone - I am looking to kickstart my career in IT and software
@@ -123,11 +128,12 @@
         </div>
     </div>
     <div class="row skill">
-        <div class=" text-center mt-5 mb-5 Rightheding">
+        <div class=" text-center mt-5 mb-5 Rightheding" data-aos="zoom-in" data-aos-duration="1000">
             <h1 style="color: #e5b259;" class="fw-bold">technologies</h1>
             <h6>The skills, tools and technologies I am really good at:</h6>
         </div>
-        <div class="skillinner1  col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="skillinner1  col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="zoom-in"
+            data-aos-duration="1000">
             <div class="d-flex justify-content-around align-item-center">
                 <p style="color: #e5b259;">USING NOW:</p>
                 <!-- <p class="mt-4">learnig</p> -->
@@ -169,7 +175,7 @@
                     <!-- <span>figm</span> -->
                 </div>
             </div>
-            <div class="d-flex justify-content-around align-item-center">
+            <div class="d-flex justify-content-around align-item-center" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="mt-4" style="color: #e5b259;">LEARNING</p>
                 <p></p>
             </div>
@@ -177,7 +183,7 @@
                 <div class="icons">
                     <!-- <p>learnig</p> -->
                     <!-- <img src="./img/bootstrap.png" alt=""> -->
-                    <img src="./img/my-sql.png" alt="">
+                    <img src="./img/ts.png" alt="">
                 </div>
                 <div class="icons">
                     <img src="./img/tailwindcss.png" alt="">
@@ -187,39 +193,37 @@
                 </div>
             </div>
         </div>
-        <div class="skillinner2 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="skillinner2 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="flip-left"
+            data-aos-duration="1000">
             <div class="bannerpage2">
                 <div class="aboutimg">
-                    <video loop muted autoplay class="img">
-                        <source src="./img/laptop.mp4">
-                        <!-- <img src="./img/VID-20251218-WA0000.mp4" class="img" alt=""> -->
-                    </video>
+                    <img src="./img/img3.png" class="img" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <div class="Gallery mt-5">
-        <div class="Gallerysection text-center  mb-5">
+    <div class="Gallery mt-5" id="project">
+        <div class="Gallerysection text-center  mb-5" data-aos="zoom-in" data-aos-duration="1000">
             <h1 style="color: #e5b259;" class="fw-bold">Gallery</h1>
             <h6>screenshot</h6>
         </div>
         <div class="d-flex">
             <div class="respo ">
-                <div class="'">
+                <div class="'" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="responsiveinnerbox">
                         <a href="https://jewellerylandingpage.netlify.app/" class="linkimg" target="_blank">
                             <img src="./img/jj.png" class="slideroic" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="'">
+                <div class="'" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="responsiveinnerbox">
                         <a href="https://domo-lending-page.netlify.app/" class="linkimg" target="_blank">
                             <img src="./img/mobile.png" class="slideroic" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="'">
+                <div class="'" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="responsiveinnerbox ">
                         <a href="https://courierlandingpage.netlify.app/" target="_blank">
                             <img src="./img/ccc.png" class="slideroic" class="linkimg" alt="">
@@ -237,7 +241,7 @@
     </div>
     <div>
         <div>
-            <div class=" mt-5">
+            <div class=" mt-5" id="contact" data-aos="flip-left" data-aos-duration="1000">
                 <div class="">
                     <div class="tablebox">
                         <div class="container-fluid contact-section-wrapper py-5">
@@ -245,54 +249,75 @@
                                 <div class="col-lg-10 col-xl-8">
                                     <div class="row">
                                         <div class="col-md-6 form-column">
-                                            <form action="" method="post" autocomplete="on">
+                                            <form action="https://api.web3forms.com/submit" method="post"
+                                                autocomplete="on">
                                                 <div class="row g-3">
+                                                    <input type="hidden" name="access_key"
+                                                        value="6547c302-4b10-4ca2-b22b-0bfd8b1e5e2b">
                                                     <div class="col-md-6">
                                                         <input type="text" class="form-control custom-input" id="fname"
-                                                            onkeyup="thorw('fnameerror')"
-                                                            placeholder="Enter your first name">
+                                                            name="fname" onkeyup="thorw('fnameerror')"
+                                                            placeholder="Enter your first name" required>
                                                         <div class="error" id="fnameerror"></div>
                                                     </div>
+
                                                     <div class="col-md-6">
                                                         <input type="text" class="form-control custom-input" id="lname"
-                                                            onkeyup="thorw('lnameerror')"
-                                                            placeholder="Enter your last name">
+                                                            name="lname" onkeyup="thorw('lnameerror')"
+                                                            placeholder="Enter your last name" required>
                                                         <div class="error" id="lnameerror"></div>
                                                     </div>
+
                                                     <div class="col-md-6">
                                                         <input type="email" class="form-control custom-input"
-                                                            onkeyup="thorw('emailerror')" id="mailinput"
-                                                            placeholder="Enter your email  address">
+                                                            id="mailinput" name="email" onkeyup="thorw('emailerror')"
+                                                            placeholder="Enter your email address" required>
                                                         <div class="error" id="emailerror"></div>
                                                     </div>
+                                                    <!-- 
+                                                    <div class="col-md-6">
+                                                        <input type="email" class="form-control custom-input"
+                                                            id="mailinput" name="email" onkeyup="thorw('emailerror')"
+                                                            placeholder="Enter your email address">
+                                                        <div class="error" id="emailerror"></div>
+                                                    </div> -->
+
                                                     <div class="col-md-6">
                                                         <input type="tel" class="form-control custom-input"
-                                                            id="numberinput" onkeyup="thorw('numbererror')"
+                                                            id="numberinput" name="phone" onkeyup="thorw('numbererror')"
                                                             pattern="[0-9]{10}"
-                                                            title="10 digits only (e.g., 1234567890)"
-                                                            placeholder="Enter your 10-digit phone number">
+                                                            placeholder="Enter your 10-digit phone number" required>
                                                         <div class="error" id="numbererror"></div>
                                                     </div>
+
                                                     <div class="col-12">
-                                                        <textarea class="form-control custom-input"
-                                                            onkeyup="thorw('texterror')" id="textareainput"
-                                                            placeholder="Enter your message" rows="6"></textarea>
+                                                        <textarea class="form-control custom-input" id="textareainput"
+                                                            name="message" onkeyup="thorw('texterror')"
+                                                            placeholder="Enter your message" rows="6"
+                                                            required></textarea>
                                                         <div class="error" id="texterror"></div>
                                                     </div>
+
                                                     <div class="col-12">
-                                                        <button type="button" onclick="submitbtn()"
-                                                            class="btn btn-warning custom-submit-btn">Submit</button>
+                                                        <!-- IMPORTANT CHANGE -->
+                                                        <button type="submit" class="btn btn-warning custom-submit-btn">
+                                                            Submit
+                                                        </button>
                                                     </div>
+
                                                 </div>
                                             </form>
+
                                             <div class="social-icons mt-4">
 
-                                                <a href="" class="social-icon-link me-3"><i
-                                                        class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                                <a href="https://www.linkedin.com/in/mitesh-makwana-868405261?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                                                    class="social-icon-link me-3"><i class="fa fa-linkedin-square"
+                                                        aria-hidden="true"></i>
                                                 </a>
                                                 <a href="https://wa.me/919664884688" class="social-icon-link me-3"><i
                                                         class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                                <a href="#" class="social-icon-link"><i class="fa fa-instagram"
+                                                <a href="https://www.instagram.com/mitesssh.___?igsh=MTBqcmFiZTR5ZmUybw%3D%3D"
+                                                    class="social-icon-link"><i class="fa fa-instagram"
                                                         aria-hidden="true"></i></a>
                                             </div>
                                         </div>
@@ -326,22 +351,21 @@
     <footer class="bg-dark text-white">
         <div class=" text-center text-md-start">
             <div class="row">
-
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">mitesh</h5>
-                    <p>We are dedicated to providing the best service to our clients worldwide. Our focus is on quality
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="zoom-in" data-aos-duration="1000">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">service</h5>
+                    <p>i am dedicated to providing the best service to our clients worldwide. Our focus is on quality
                         and innovation.</p>
                 </div>
 
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" data-aos="zoom-in" data-aos-duration="1000">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
-                    <p><a href="#" class="text-white text-decoration-none footertext">Home</a></p>
-                    <p><a href="#" class="text-white text-decoration-none footertext">Services</a></p>
-                    <p><a href="#" class="text-white text-decoration-none footertext">About Us</a></p>
-                    <p><a href="#" class="text-white text-decoration-none footertext">Contact</a></p>
+                    <p><a href="#home" class="text-white text-decoration-none footertext">Home</a></p>
+                    <p><a href="#project" class="text-white text-decoration-none footertext">Services</a></p>
+                    <p><a href="#about" class="text-white text-decoration-none footertext">About </a></p>
+                    <p><a href="#contact" class="text-white text-decoration-none footertext">Contact</a></p>
                 </div>
 
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="zoom-in" data-aos-duration="1000">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
                     <p class="footertext"> junagadh, gujrat, India</p>
                     <p class=""><a href="mailto:miteshmakwana644@gmail.com"
@@ -349,16 +373,18 @@
                     <p class="footertext"> +91 96648 84688</p>
                 </div>
 
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" data-aos="zoom-in" data-aos-duration="1000">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Follow Us</h5>
                     <div class="social-icons">
 
 
-                        <a href="" class="social-icon-link me-3"><i class="fa fa-linkedin-square"
-                                aria-hidden="true"></i>
+                        <a href="https://www.linkedin.com/in/mitesh-makwana-868405261?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                            class="social-icon-link me-3"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
-                        <a href="#" class="social-icon-link me-3"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                        <a href="#" class="social-icon-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://wa.me/919664884688" class="social-icon-link me-3"><i class="fa fa-whatsapp"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/mitesssh.___?igsh=MTBqcmFiZTR5ZmUybw%3D%3D"
+                            class="social-icon-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </div>
                 </div>
 
@@ -371,7 +397,7 @@
                     <p class="text-md-start">© 2026 Copyright: <strong>ur brand name</strong></p>
                 </div>
                 <div class="col-md-5 col-lg-4 text-md-end">
-                    <p>Designed with <span class="text-danger">&hearts;</span> by mitesh makwana</p>
+                    <p>Designed with <span class="text-danger"></span> by mitesh makwana</p>
                 </div>
             </div>
         </div>
@@ -391,8 +417,9 @@
     $('.respo').slick({
         dots: true,
         infinite: false,
-        speed: 300,
+        speed: 500,
         slidesToShow: 2,
+        autoplay: true,
         slidesToScroll: 1,
         responsive: [
             {
@@ -423,6 +450,11 @@
             // instead of a settings object
         ]
     });
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 
 </script>

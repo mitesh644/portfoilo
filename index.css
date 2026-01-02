@@ -424,10 +424,10 @@ button:before {
     z-index: 10000;
 }
 
+[class*="fa-phone"],
 [class*="fa-arrow-up"] {
     background-color: #E5B259 !important;
     color: #000 !important;
-
 }
 
 .topbox2 {
@@ -439,6 +439,24 @@ button:before {
     right: 5%;
     bottom: 10px;
     z-index: 10000;
+    animation: phone 1s ease-in 0.5s infinite;
+    transition: all 0.5 inherit;
+}
+
+@keyframes phone {
+    0% {
+        transform: scale(1);
+    }
+
+
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .footertext:hover {
