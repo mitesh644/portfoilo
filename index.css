@@ -462,3 +462,37 @@ button:before {
 .footertext:hover {
     color: #E5B259 !important;
 }
+
+.clickbtn {
+    display: none;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 35px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.maincounter {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #E5B259; */
+}
+
+.count::after {
+    content: "+";
+}
+
+.btnbanner1about {
+    background-color: #E5B259;
+    color: black !important;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.counttext {
+    color: #E5B259;
+    font-family: "Montserrat", sans-serif;
+}

@@ -3,7 +3,16 @@ $(document).ready(function () {
         $(".navigationlinkspart").slideToggle();
         // .slideToggle()
     })
+    $(".btnbanner1about").click(function () {
+        $("#btn").slideToggle();
+        // .slideToggle()
+        let btn = document.querySelector(".btnbanner1about").innerHTML = "learn more";
+    })
+    if (btn == "learn more") {
+        $(".btnbanner1about").text("learn less")
+    }
 })
+
 window.addEventListener("scroll", function () {
     console.log("page x " + window.pageXOffset)
 })
@@ -57,3 +66,34 @@ function submitbtn() {
         alert("thnaks vailde this form")
     }
 }
+function des(name, eduction, ...arg) {
+    console.log(`hello ${name}, and ur study ${eduction} and ur marks`)
+    let sum = 0;
+    for (let i in arg) {
+        sum += arg[i]
+    }
+    console.log(sum);
+}
+let arr = [20, 50, 30];
+des("mitesh makwana", "b.com", ...arr)
+
+class oop {
+    constructor(studentname, studenteduction, studentage) {
+        this.stdname = studentname;
+        this.stdeduction = studenteduction;
+        this.stdage = studentage;
+        console.log("this is constructre method")
+    }
+    parth() {
+
+        console.log(`hello ${this.stdname}and your study ${this.stdeduction} and ur age is ${this.stdage}`)
+
+    }
+    static staticMethod() {
+        console.log("this is staic method")
+    }
+}
+
+let kk = new oop("mitesh makwana", "B.com", 25);
+kk.parth()
+oop.staticMethod();

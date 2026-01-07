@@ -102,6 +102,14 @@
 		.responsiveinnerbox {
 			width: 100%;
 		}
+
+		.clickbtn {
+			text-align: center;
+		}
+
+		.maincounter {
+			flex-direction: column;
+		}
 	}
 
 	@media (min-width: 320px) and (max-width: 480px) {
@@ -207,6 +215,14 @@
 
 		.responsiveinnerbox {
 			width: 100%;
+		}
+
+		.clickbtn {
+			text-align: center;
+		}
+
+		.maincounter {
+			flex-direction: column;
 		}
 	}
 
@@ -314,6 +330,13 @@
 			width: 100%;
 		}
 
+		.clickbtn {
+			text-align: center;
+		}
+
+		.maincounter {
+			flex-direction: column;
+		}
 	}
 
 	@media (min-width: 768px) and (max-width: 1024px) {

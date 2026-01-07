@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 </head>
 
 <body>
@@ -48,7 +50,7 @@
                     <a class="nav-link" href="#contact">contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./MiteshMakwana.pdf" download>download Cv</a>
+                    <a class="nav-link" href="./Mitesh CV.pdf" download>download Cv</a>
                 </li>
             </ul>
         </div>
@@ -70,13 +72,23 @@
             <p class="bannertext">I am a front-end web developer. I can provide clean code and pixel perfect
                 design.
                 I also make the
-                website more & more interactive with web animations. I can provide clean code and pixel perfect
-                design. I also make the website more & more interactive with web animations.A responsive design
+                website more & more interactive with web animations. A responsive design
                 makes your website accessible to all users, regardless of their device.
             </p>
             <div class="bannerbtn mt-3">
-                <a href="#" class="btnbanner1"> works</a>
-                <a href="#" class="btnbanner2">Free Stuff</a>
+                <a href="#project" class="btnbanner1"> works</a>
+                <!-- <a href="#" class="btnbanner2">Free Stuff</a> -->
+                <a class="btnbanner2" href="./Mitesh CV.pdf" download>download Cv</a>
+            </div>
+            <div class="maincounter">
+                <div class=" counter " data-aos="flip-left" data-aos-duration="1000">
+                    <h1 class="count">25</h1>
+                    <p class="counttext">projects</p>
+                </div>
+                <div class=" counter " data-aos="flip-left" data-aos-duration="1000">
+                    <h1 class="count text-center">2</h1>
+                    <p class="counttext">years experience</p>
+                </div>
             </div>
 
         </div>
@@ -112,17 +124,25 @@
             <div class="aboutsectionpart2 col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"
                 data-aos="zoom-in" data-aos-duration="1000">
                 <div>
-                    <h1 class="aboutheading ">I am front-end devloper</h1>
+                    <h1 class="aboutheading" id="aboutheading">I am front-end devloper</h1>
                     <p class="abouttext mt-5">Hi everyone - I am looking to kickstart my career in IT and software
                         development and
                         would appreciate your support. I am a fresher with a quick learning attitude, I possess good
                         knowledge
                         and some experience in frontend technologies and web technologies. I am eager to learn more. I
                         have
-                        worked on html5 css3 bootstrap and have knowledge on jquery and javascript</p>
+                        worked on html5, css3 ,bootstrap and also have knowledge on jquery and javascript<br>
+                    </p>
+                    <div class="clickbtn" id="btn">
+                        In addition to strong design implementation, I enhance user experience by making websites highly
+                        interactive using smooth web animations and dynamic effects. I build fully responsive designs so
+                        that websites remain accessible and functional for all users, whether they are browsing on
+                        desktops, tablets, or mobile devices. My goal is to create engaging, user-friendly interfaces
+                        that combine aesthetics with seamless functionality.
+                    </div>
                 </div>
                 <div class="mt-5 aboutbtn">
-                    <a class="btnbanner1">learn more</a>
+                    <a class="btnbanner1about">learn more</a>
                 </div>
             </div>
         </div>
@@ -367,9 +387,9 @@
 
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="zoom-in" data-aos-duration="1000">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
-                    <p class="footertext"> junagadh, gujrat, India</p>
+                    <p class="footertext"> junagadh, gujarat, India</p>
                     <p class=""><a href="mailto:miteshmakwana644@gmail.com"
-                            class="footertext">miteshmakwana644@gamilcom</a></p>
+                            class="footertext">miteshmakwana644@gmail.com</a></p>
                     <p class="footertext"> +91 96648 84688</p>
                 </div>
 
@@ -405,8 +425,17 @@
 </body>
 
 </html>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="./index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+<script>
+    $('.count').counterUp({
+        delay: 10,
+        time: 1000
+    });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
@@ -458,4 +487,3 @@
 </script>
 
 </script>
-<!-- https://www.figma.com/design/uCLb0a2oDywQw16gCSY3S1/Orpheus---Designer-Portfolio----Sculpture-Avatars---Community-?node-id=171-28&t=8sxPjKHs943K5uPY-0 -->
